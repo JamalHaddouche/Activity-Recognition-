@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#F8F8FF">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/firstLine"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:background="@drawable/blue"
+            android:layout_centerHorizontal="true"/>
+        <View
+            android:id="@+id/secondLine"
+            android:layout_width="20dp"
+            android:layout_height="80dp"
+            android:background="@drawable/orange"
+            android:layout_toRightOf="@+id/firstLine"
+            android:layout_marginLeft="5dp"
+            />
+        <View
+            android:id="@+id/thirdLine"
+            android:layout_width="20dp"
+            android:layout_height="120dp"
+            android:background="@drawable/blue"
+            android:layout_toRightOf="@+id/secondLine"
+            android:layout_marginLeft="5dp"
+            />
+        <View
+            android:id="@+id/fourthLine"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:background="@drawable/orange"
+            android:layout_toRightOf="@+id/thirdLine"
+            android:layout_marginLeft="5dp"
+            />
+        <View
+            android:id="@+id/fifthLine"
+            android:layout_width="20dp"
+            android:layout_height="180dp"
+            android:background="@drawable/blue"
+            android:layout_toRightOf="@+id/fourthLine"
+            android:layout_marginLeft="5dp"
+            />
+        <View
+            android:id="@+id/sixthLine"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:background="@drawable/orange"
+            android:layout_toRightOf="@+id/fifthLine"
+            android:layout_marginLeft="5dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/fsm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/creepster"
+            android:text="FSM-IAAD"
+            android:textSize="60sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:textColor="#87CEFA"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/developpeur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="200dp"
+                android:fontFamily="@font/lakki_reddy"
+                android:text="Haddouche Jamal"
+                android:textColor="#FFCE44"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

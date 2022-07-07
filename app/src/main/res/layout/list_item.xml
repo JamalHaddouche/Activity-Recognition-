@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+        <TextView
+            android:id="@+id/date_historique"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dddd"/>
+
+        <TextView
+            android:id="@+id/pays_historique"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="jjjj"/>
+        <TextView
+            android:id="@+id/ville_historique"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="jjjj"/>
+
+        <TextView
+            android:id="@+id/addresse_historique"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="jjjj"/>
+
+</LinearLayout>

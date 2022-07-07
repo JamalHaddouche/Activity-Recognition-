@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "369731965063",
+    "firebase_url": "https://haddouche-jamal-project-7275d-default-rtdb.firebaseio.com",
+    "project_id": "haddouche-jamal-project-7275d",
+    "storage_bucket": "haddouche-jamal-project-7275d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369731965063:android:52d9bb69689a2cae7b2822",
+        "android_client_info": {
+          "package_name": "com.example.haddouche_jamal_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369731965063-6728lel9qstoq2bh7l1rcgv7kgke28pk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc7CVobI5AXJb0sAicSOP7xYXFPBmIROc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369731965063-6728lel9qstoq2bh7l1rcgv7kgke28pk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
